@@ -1,5 +1,16 @@
 {
   "compilerOptions": {
-    "strict": true
+    "baseUrl": ".",
+    "outDir": "temp",
+    "sourceMap": false,
+    "target": "es2016",
+    "newLine": "lf",
+    "useDefineForClassFields": false,
+    "module": "esnext",
+    "moduleResolution": "bundler",
+    "allowJs": false,
+    "strict": true,
+    "noUnusedLocals": true,
+    "experimentalDecorators": true
   }
 }
