@@ -5,7 +5,7 @@ import { resolve } from 'node:path'
 
 const config = getWorkSpaceConfig()
 
-const packages = config?.packages?.map(path => path?.slice(0, -2))
+const packages = config?.packages?.map(path => path?.slice(0, -2))!
 
 let arr: any = []
 
