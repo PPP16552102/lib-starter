@@ -1,3 +1,3 @@
 export function hello() {
-  console.log('lib1!');
+  console.log('lib4!')
 }
